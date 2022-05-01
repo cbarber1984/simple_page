@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Sample Page</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./index.css">
+    </head>
+    <body>
+        <div id="navbar" class="navbar" style="display:none">
+            <button onclick="nav_close()">Close &times</button>
+            <a href="#" class="bar-item bar-button">Link 1</a>
+            <a href="#" class="bar-item bar-button">Link 2</a>
+            <a href="#" class="bar-item bar-button">Link 3</a>
+        </div>
+        <div id="main" class="main">
+
+            <div class="teal">
+                <button id="openNav" class="teal" onclick="nav_open()">&#9776;</button>
+            </div>
+
+            <h1>Sample Page</h1>
+            <div id="section1" class="section">
+                <h2>Section 1</h2>
+                <p>Section 1 is about section 1 topics.</p>
+            </div>
+            <div id="section2" class="section">
+                <h2>Section 2</h2>
+                <p>Section 2 is about section 2 topics.</p>
+            </div>
+            <div id="section3" class="section">
+                <h2>Section 3</h2>
+                <p>Section 3 is about section 3 topics.</p>
+            </div>
+            <div id="section4" class="section">
+                <h2>Section 4</h2>
+                <p>Section 4 is about section 4 topics.</p>
+            </div>
+            
+        </div>
+                
+        <script>
+            function nav_open() {
+                document.getElementById("main").style.marginLeft = "25%";
+                document.getElementById("navbar").style.width = "25%";
+                document.getElementById("navbar").style.display = "block";
+                document.getElementById("openNav").style.display = 'none';
+            }
+
+            function nav_close() {
+                document.getElementById("main").style.marginLeft = "0%";
+                document.getElementById("navbar").style.display = "none";
+                document.getElementById("openNav").style.display = 'block';
+            }
+        </script>
+    
+    </body>
+</html>

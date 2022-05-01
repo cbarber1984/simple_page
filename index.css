@@ -1,0 +1,9 @@
+.navbar {
+    color: white;
+    background-color: rgb(200, 196, 196);
+    display: flexbox;
+}
+
+a {
+    color:rgb(87, 117, 142)
+}
