@@ -6,4 +6,5 @@ After spending several weeks working through the freeCodeCamp modules for algori
 
 ##To-Do List:
 • Use CSS to style elements
+    • I think that animating the position of the elements will be more visually appealing than changing the view percentage via JavaScript.
 • Practice integrating Visual Studio Code and GitHub to manage local changes to the code and the repo here.
