@@ -10,18 +10,21 @@
     </head>
     <body>
         <div id="navbar" class="navbar" style="display:none">
-            <button onclick="nav_close()">Close &times</button>
+            <div>
+                <button id="close_nav_button" onclick="nav_close()">Close &times</button>
+
+            </div>
             <a href="#" class="bar-item bar-button">Link 1</a>
             <a href="#" class="bar-item bar-button">Link 2</a>
             <a href="#" class="bar-item bar-button">Link 3</a>
         </div>
         <div id="main" class="main">
 
-            <div class="teal">
+            <div class="teal header">
                 <button id="openNav" class="teal" onclick="nav_open()">&#9776;</button>
+                <h1 class="page_header">Sample Page</h1>
             </div>
 
-            <h1>Sample Page</h1>
             <div id="section1" class="section">
                 <h2>Section 1</h2>
                 <p>Section 1 is about section 1 topics.</p>

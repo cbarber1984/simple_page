@@ -1,9 +1,52 @@
+.teal {
+    background-color: teal;
+    color: white;
+}
+
+.page_header {
+    padding: 10px;
+}
+
+.section {
+    padding: 10px;
+}
+
+button {
+    background-size: cover;
+    border: 0;
+    color: white;
+    padding: 1px 1px;
+    text-align: center;
+    text-decoration: none;
+}
+
+#close_nav_button {
+    background-size: cover;
+    background-color: transparent;
+    border: 0;
+    color: black;
+    padding: 1px 1px;
+    text-align: center;
+    text-decoration: none;
+}
+
 .navbar {
     color: white;
     background-color: rgb(200, 196, 196);
-    display: flexbox;
+    display:inline-block
+}
+
+.bar-item {
+    right: 0px;
 }
 
 a {
     color:rgb(87, 117, 142)
+}
+
+div a:after {
+    content:"";
+    display:block;
+    height: 0;
+    width: 1px;
 }
