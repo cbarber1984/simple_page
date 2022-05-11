@@ -5,6 +5,7 @@
 
 .page_header {
     padding: 10px;
+    text-align: center;
 }
 
 .section {
@@ -33,15 +34,19 @@ button {
 .navbar {
     color: white;
     background-color: rgb(200, 196, 196);
-    display:inline-block
+    display: inline-flex;
+    padding: 1rem;
 }
 
 .bar-item {
     right: 0px;
+    margin: 5px 5px 5px 5px;
 }
 
 a {
-    color:rgb(87, 117, 142)
+    color:rgb(87, 117, 142);
+    margin-top: 5px;
+
 }
 
 div a:after {
