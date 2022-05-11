@@ -4,12 +4,15 @@
 }
 
 .page_header {
-    padding: 10px;
-    text-align: center;
+    padding: 10px, 10px, 10px, 20;
+}
+
+h1 {
+    font-size: large;
 }
 
 .section {
-    padding: 10px;
+    padding: 10px, 10px, 10px, 20px;
 }
 
 button {
